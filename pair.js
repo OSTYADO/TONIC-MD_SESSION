@@ -102,14 +102,23 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying TONIC-MD*\n\n ◦ *Github:* https://github.com/tonic3057/TONIC-MD`;
+                            let desc = `
+┏━━━━━━━━━━━━━━━━━━━━✠ 
+║➳ 𝖥𝖫𝖴𝖷𝖨𝖮𝖭
+║➳ OWNER : ꂦꌗ꓄ꌩꍏꀸꂦ
+║➳ Connected successfully
+║➳ Wait for the Session Id
+║➳ REPO: https://github.com/OSTYADO/Fluxion-II
+
+┗━━━━━━━━━━━━━━━━━━━━✠`;
+`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TONIC-MD",
-thumbnailUrl: "https://files.catbox.moe/d79cay.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f",
+title: "FLUXION-II",
+thumbnailUrl: "https://files.catbox.moe/2zvckc.jpg",
+sourceUrl: "",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
