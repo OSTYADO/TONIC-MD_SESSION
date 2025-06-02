@@ -97,8 +97,8 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "Tonic Tech inc",
-thumbnailUrl: "https://files.catbox.moe/d79cay.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f",
+thumbnailUrl: "https://files.catbox.moe/2zvckc.jpg",
+sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
