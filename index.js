@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(PORT, () => {
     console.log(`
-Don't Forget To Give Star TONIC-MD
+LEAVE A STAR FOR FLUXION-II MD
 
  Server running on http://localhost:` + PORT)
 })
