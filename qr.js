@@ -70,30 +70,25 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "TONIC-MD~" + string_session;
+                        let md = "FLUXION-II~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there TONIC MD User! 👋🏻* 
+                        let desc = `
+┏━━━━━━━━━━━━━━━━━━━━✠ 
+║➳ 𝖥𝖫𝖴𝖷𝖨𝖮𝖭
+║➳ OWNER : ꂦꌗ꓄ꌩꍏꀸꂦ
+║➳ Connected successfully
+║➳ Wait for the Session Id
+║➳ REPO: https://github.com/OSTYADO/Fluxion-II
 
-> Do not share your session id with anyone.
-
- *Thanks for using TONIC-MD 🚩* 
-
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f
-
-Dont forget to fork the repo ⬇️
-
-https://github.com/kingmalvn/TONIC-MD 
-
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴏɴɪᴄ ᴛᴇᴄʜ🖤*`;
+┗━━━━━━━━━━━━━━━━━━━━✠`;
+`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/d79cay.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f",
+title: "fluxion 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+thumbnailUrl: "https://files.catbox.moe/2zvckc.jpg",
+sourceUrl: "",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -102,28 +97,23 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hello there TONIC MD User! 👋🏻* 
+                            let desc = `
+┏━━━━━━━━━━━━━━━━━━━━✠ 
+║➳ 𝖥𝖫𝖴𝖷𝖨𝖮𝖭
+║➳ OWNER : ꂦꌗ꓄ꌩꍏꀸꂦ
+║➳ Connected successfully
+║➳ Wait for the Session Id
+║➳ REPO: https://github.com/OSTYADO/Fluxion-II
 
-> Do not share your session id with anyone.
-
- *Thanks for using MALVIN-XMD 🚩* 
-
-> Join WhatsApp Channel :- ⤵️
- 
-https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
-
-Dont forget to fork the repo ⬇️
-
-https://github.com/kingmalvn/MALVIN-XMD 
-
-> *© Powered BY MalvinTechX 🖤*`;
+┗━━━━━━━━━━━━━━━━━━━━✠`;
+`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " 𝖒𝖉 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/d79cay.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f",
+title: "FLUXION-II  ",
+thumbnailUrl: "https://files.catbox.moe/2zvckc.jpg",
+sourceUrl: "",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
