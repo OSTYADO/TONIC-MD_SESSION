@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
       "start": "pm2 start index.js --deep-monitoring --attach --name vajira-md",
-      "stop": "pm2 stop vajira-md",
-     "restart": "pm2 restart vajira-md"
+      "stop": "pm2 stop fluxion-md",
+     "restart": "pm2 restart fluxion-md"
     },
   "dependencies": {
  "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro",
